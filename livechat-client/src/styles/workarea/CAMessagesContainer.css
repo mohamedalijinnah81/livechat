@@ -1,0 +1,27 @@
+.chatarea-messages {
+    background-color: #fff;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 1) !important;
+    flex: 1;
+    overflow: scroll;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px -6px -12px 2px, rgba(0, 0, 0, 0.3) 0px -3px -7px 3px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.chatarea-messages::-webkit-scrollbar {
+    display: none;
+}
+
+/* ::-webkit-scrollbar {
+    /* width: 7px; */
+    /* display: none; */
+
+/* ::-webkit-scrollbar-track {
+background-color: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #FFC107;
+} */

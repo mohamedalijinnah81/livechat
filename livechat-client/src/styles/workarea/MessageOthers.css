@@ -1,0 +1,26 @@
+.others-conversation-container {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.others-text-content {
+    background-color: #d9d9d9;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.others-text-content .convo-title {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.self-timestamp {
+    align-self: flex-end;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
